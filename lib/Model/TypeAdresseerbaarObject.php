@@ -53,8 +53,8 @@ class TypeAdresseerbaarObject
     public static function getAllowableEnumValues()
     {
         return [
-            self::VERBLIJFSOBJECT
-            self::STANDPLAATS
+            self::VERBLIJFSOBJECT,
+            self::STANDPLAATS,
             self::LIGPLAATS
         ];
     }

@@ -53,9 +53,9 @@ class InOnderzoekStandplaats
     public static function getAllowableEnumValues()
     {
         return [
-            self::GEOMETRIE
-            self::STATUS
-            self::HEEFT_ALS_HOOFDADRES
+            self::GEOMETRIE,
+            self::STATUS,
+            self::HEEFT_ALS_HOOFDADRES,
             self::HEEFT_ALS_NEVENADRES
         ];
     }

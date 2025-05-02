@@ -53,9 +53,9 @@ class InOnderzoekOpenbareRuimte
     public static function getAllowableEnumValues()
     {
         return [
-            self::NAAM
-            self::TYPE
-            self::STATUS
+            self::NAAM,
+            self::TYPE,
+            self::STATUS,
             self::GERELATEERDE_WOONPLAATS
         ];
     }

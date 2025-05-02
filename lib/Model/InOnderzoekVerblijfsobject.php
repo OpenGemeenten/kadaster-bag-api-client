@@ -56,12 +56,12 @@ class InOnderzoekVerblijfsobject
     public static function getAllowableEnumValues()
     {
         return [
-            self::GEOMETRIE
-            self::GEBRUIKSDOEL
-            self::OPPERVLAKTE
-            self::STATUS
-            self::MAAKT_DEEL_UIT_VAN
-            self::HEEFT_ALS_HOOFDADRES
+            self::GEOMETRIE,
+            self::GEBRUIKSDOEL,
+            self::OPPERVLAKTE,
+            self::STATUS,
+            self::MAAKT_DEEL_UIT_VAN,
+            self::HEEFT_ALS_HOOFDADRES,
             self::HEEFT_ALS_NEVENADRES
         ];
     }

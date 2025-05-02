@@ -61,16 +61,16 @@ class Gebruiksdoel
     public static function getAllowableEnumValues()
     {
         return [
-            self::WOONFUNCTIE
-            self::BIJEENKOMSTFUNCTIE
-            self::CELFUNCTIE
-            self::GEZONDHEIDSZORGFUNCTIE
-            self::INDUSTRIEFUNCTIE
-            self::KANTOORFUNCTIE
-            self::LOGIESFUNCTIE
-            self::ONDERWIJSFUNCTIE
-            self::SPORTFUNCTIE
-            self::WINKELFUNCTIE
+            self::WOONFUNCTIE,
+            self::BIJEENKOMSTFUNCTIE,
+            self::CELFUNCTIE,
+            self::GEZONDHEIDSZORGFUNCTIE,
+            self::INDUSTRIEFUNCTIE,
+            self::KANTOORFUNCTIE,
+            self::LOGIESFUNCTIE,
+            self::ONDERWIJSFUNCTIE,
+            self::SPORTFUNCTIE,
+            self::WINKELFUNCTIE,
             self::OVERIGE_GEBRUIKSFUNCTIE
         ];
     }

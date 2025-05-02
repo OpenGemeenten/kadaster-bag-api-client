@@ -58,13 +58,13 @@ class StatusVerblijfsobject
     public static function getAllowableEnumValues()
     {
         return [
-            self::VERBLIJFSOBJECT_GEVORMD
-            self::NIET_GEREALISEERD_VERBLIJFSOBJECT
-            self::VERBLIJFSOBJECT_IN_GEBRUIK__NIET_INGEMETEN
-            self::VERBLIJFSOBJECT_IN_GEBRUIK
-            self::VERBOUWING_VERBLIJFSOBJECT
-            self::VERBLIJFSOBJECT_INGETROKKEN
-            self::VERBLIJFSOBJECT_BUITEN_GEBRUIK
+            self::VERBLIJFSOBJECT_GEVORMD,
+            self::NIET_GEREALISEERD_VERBLIJFSOBJECT,
+            self::VERBLIJFSOBJECT_IN_GEBRUIK__NIET_INGEMETEN,
+            self::VERBLIJFSOBJECT_IN_GEBRUIK,
+            self::VERBOUWING_VERBLIJFSOBJECT,
+            self::VERBLIJFSOBJECT_INGETROKKEN,
+            self::VERBLIJFSOBJECT_BUITEN_GEBRUIK,
             self::VERBLIJFSOBJECT_TEN_ONRECHTE_OPGEVOERD
         ];
     }

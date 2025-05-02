@@ -57,13 +57,13 @@ class InOnderzoekNummeraanduiding
     public static function getAllowableEnumValues()
     {
         return [
-            self::HUISNUMMER
-            self::HUISLETTER
-            self::HUISNUMMERTOEVOEGING
-            self::POSTCODE
-            self::TYPE_ADRESSEERBAAR_OBJECT
-            self::STATUS
-            self::LIGT_IN
+            self::HUISNUMMER,
+            self::HUISLETTER,
+            self::HUISNUMMERTOEVOEGING,
+            self::POSTCODE,
+            self::TYPE_ADRESSEERBAAR_OBJECT,
+            self::STATUS,
+            self::LIGT_IN,
             self::LIGT_AAN
         ];
     }

@@ -52,7 +52,7 @@ class StatusPlaats
     public static function getAllowableEnumValues()
     {
         return [
-            self::AANGEWEZEN
+            self::AANGEWEZEN,
             self::INGETROKKEN
         ];
     }

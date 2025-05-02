@@ -52,7 +52,7 @@ class StatusGemeente
     public static function getAllowableEnumValues()
     {
         return [
-            self::ACTIEF
+            self::ACTIEF,
             self::BEINDIGD
         ];
     }

@@ -52,8 +52,8 @@ class InOnderzoekPand
     public static function getAllowableEnumValues()
     {
         return [
-            self::GEOMETRIE
-            self::OORSPRONKELIJK_BOUWJAAR
+            self::GEOMETRIE,
+            self::OORSPRONKELIJK_BOUWJAAR,
             self::STATUS
         ];
     }

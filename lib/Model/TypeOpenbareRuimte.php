@@ -57,12 +57,12 @@ class TypeOpenbareRuimte
     public static function getAllowableEnumValues()
     {
         return [
-            self::WEG
-            self::WATER
-            self::SPOORBAAN
-            self::TERREIN
-            self::KUNSTWERK
-            self::LANDSCHAPPELIJK_GEBIED
+            self::WEG,
+            self::WATER,
+            self::SPOORBAAN,
+            self::TERREIN,
+            self::KUNSTWERK,
+            self::LANDSCHAPPELIJK_GEBIED,
             self::ADMINISTRATIEF_GEBIED
         ];
     }

@@ -52,8 +52,8 @@ class InOnderzoekWoonplaats
     public static function getAllowableEnumValues()
     {
         return [
-            self::NAAM
-            self::GEOMETRIE
+            self::NAAM,
+            self::GEOMETRIE,
             self::STATUS
         ];
     }
